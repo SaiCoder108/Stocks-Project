@@ -33,6 +33,20 @@ Key capabilities:
 
 This module produces analysis-ready market data that serves as the input for all subsequent quantitative metrics and models.
 
+### Project 1 — Risk & Quantitative Metrics
+
+This component builds on the foundational market data pipeline to compute key financial risk and performance metrics over historical equity data.
+
+**Key capabilities:**
+
+- Calculation of daily returns and log returns for equities
+- Computation of rolling volatility and Sharpe ratio over customizable windows
+- Accurate maximum drawdown calculation with proper rolling-window alignment
+- Moving average signals for bullish, bearish, or neutral trends
+- Produces clean, analysis-ready risk metrics for use in quantitative research and trading strategy development
+
+This module integrates seamlessly with the market data pipeline, ensuring all quantitative calculations are performed on **normalized, correctly indexed time-series data**.
+
 ---
 
 ## Technical Stack
@@ -40,4 +54,5 @@ This module produces analysis-ready market data that serves as the input for all
 - Python
 - pandas
 - NumPy
-- Public market data APIs (e.g. Yahoo Finance)
+- yfinance (historical market data)
+- Modular, testable design supporting and loop-based computations
