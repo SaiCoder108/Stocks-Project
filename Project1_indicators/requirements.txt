@@ -1,0 +1,4 @@
+yahooo
+pandas
+numpy
+datetime

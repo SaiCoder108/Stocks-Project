@@ -1,0 +1,9 @@
+API_KEY = ""
+BASE_URL = ""
+symbol = "NVDA"
+start_date = None
+end_date = None
+day_range = 252
+rv_window = 30
+mode = "D"
+risk_free_rate = 0.0220 # 2.20%
