@@ -17,25 +17,6 @@ The Fintech Project Stack emphasizes:
 
 The focus is on data correctness, structure, and financial intuition, rather than black-box models or abstracted libraries.
 
----
-
-## Current Component
-
-### Project 0 — Market Data Ingestion & Processing
-
-This component establishes the foundational data pipeline for the stack.
-
-Key capabilities:
-- Retrieval of historical equity market data
-- Handling real-world API outputs (e.g. MultiIndex columns)
-- Conversion to standardized OHLCV format
-- Proper datetime indexing and data normalization
-
-This module produces analysis-ready market data that serves as the input for all subsequent quantitative metrics and models.
-
-### Project 1 — Risk & Quantitative Metrics
-
-This component builds on the foundational market data pipeline to compute key financial risk and performance metrics over historical equity data.
 
 **Key capabilities:**
 
@@ -46,6 +27,11 @@ This component builds on the foundational market data pipeline to compute key fi
 - Produces clean, analysis-ready risk metrics for use in quantitative research and trading strategy development
 
 This module integrates seamlessly with the market data pipeline, ensuring all quantitative calculations are performed on **normalized, correctly indexed time-series data**.
+
+### Example Outputs
+- Analysis-ready OHLCV CSV files
+- Risk & performance metric CSVs
+- Summary tables and plots highlighting trends, volatility, and drawdowns
 
 ---
 
