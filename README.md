@@ -30,7 +30,7 @@ This module integrates seamlessly with the market data pipeline, ensuring all qu
 
 ### Example Outputs
 - Analysis-ready OHLCV CSV files
-- Risk & performance metric CSVs
+- Risk & performance metric ratings simplified to buy/sell signals 
 - Summary tables and plots highlighting trends, volatility, and drawdowns
 
 ---
