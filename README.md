@@ -53,7 +53,6 @@ This module integrates seamlessly with the market data pipeline, ensuring all qu
 - pandas
 - NumPy
 - yfinance (historical market data)
-- Modular, testable design supporting loop-based computations and backtesting readiness
 
 ---
 
