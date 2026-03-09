@@ -17,21 +17,21 @@ The Fintech Project Stack emphasizes:
 
 The focus is on data correctness, structure, and financial intuition, rather than black-box models or abstracted libraries.
 
----
 
-## Current Component
+**Key capabilities:**
 
-### Project 0 — Market Data Ingestion & Processing
+- Calculation of daily returns and log returns for equities
+- Computation of rolling volatility and Sharpe ratio over customizable windows
+- Accurate maximum drawdown calculation with proper rolling-window alignment
+- Moving average signals for bullish, bearish, or neutral trends
+- Produces clean, analysis-ready risk metrics for use in quantitative research and trading strategy development
 
-This component establishes the foundational data pipeline for the stack.
+This module integrates seamlessly with the market data pipeline, ensuring all quantitative calculations are performed on **normalized, correctly indexed time-series data**.
 
-Key capabilities:
-- Retrieval of historical equity market data
-- Handling real-world API outputs (e.g. MultiIndex columns)
-- Conversion to standardized OHLCV format
-- Proper datetime indexing and data normalization
-
-This module produces analysis-ready market data that serves as the input for all subsequent quantitative metrics and models.
+### Example Outputs
+- Analysis-ready OHLCV CSV files
+- Risk & performance metric ratings simplified to buy/sell signals 
+- Summary tables and plots highlighting trends, volatility, and drawdowns
 
 ---
 
@@ -40,4 +40,5 @@ This module produces analysis-ready market data that serves as the input for all
 - Python
 - pandas
 - NumPy
-- Public market data APIs (e.g. Yahoo Finance)
+- yfinance (historical market data)
+- Modular, testable design supporting and loop-based computations
