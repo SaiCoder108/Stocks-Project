@@ -1,0 +1,65 @@
+{
+    "positions": {
+        "GOOG": {
+            "entry_price": 298.29998779296875,
+            "shares": 67,
+            "entry date": "2026-03-09"
+        },
+        "XOM": {
+            "entry_price": 151.2100067138672,
+            "shares": 105,
+            "entry date": "2026-03-09"
+        },
+        "CVX": {
+            "entry_price": 189.94000244140625,
+            "shares": 67,
+            "entry date": "2026-03-09"
+        },
+        "COP": {
+            "entry_price": 117.06999969482422,
+            "shares": 87,
+            "entry date": "2026-03-09"
+        },
+        "EOG": {
+            "entry_price": 131.41000366210938,
+            "shares": 62,
+            "entry date": "2026-03-09"
+        },
+        "SLB": {
+            "entry_price": 46.900001525878906,
+            "shares": 141,
+            "entry date": "2026-03-09"
+        },
+        "SOXX": {
+            "entry_price": 323.510009765625,
+            "shares": 16,
+            "entry date": "2026-03-09"
+        },
+        "SMH": {
+            "entry_price": 380.55999755859375,
+            "shares": 11,
+            "entry date": "2026-03-09"
+        },
+        "XLE": {
+            "entry_price": 56.56999969482422,
+            "shares": 60,
+            "entry date": "2026-03-09"
+        },
+        "VDE": {
+            "entry_price": 159.6199951171875,
+            "shares": 17,
+            "entry date": "2026-03-09"
+        },
+        "IYE": {
+            "entry_price": 59.75,
+            "shares": 36,
+            "entry date": "2026-03-09"
+        },
+        "XOP": {
+            "entry_price": 164.1300048828125,
+            "shares": 10,
+            "entry date": "2026-03-09"
+        }
+    },
+    "capital": 7203.099456787109
+}
