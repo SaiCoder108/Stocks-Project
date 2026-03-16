@@ -117,4 +117,4 @@ if __name__ == "__main__":
     print(f"Cash: {capital}")
     print(f"Total Portfolio Value: {total_value}")
     print(f"Unrealized Gain: {un_gain}")
-    print(f"Total P&L: {total_value - 100000}")  # if 100k initial capital
+    print(f"Total P&L: {total_value - 100000} ({((total_value - 100000)/100000)*100}%)")  # if 100k initial capital
