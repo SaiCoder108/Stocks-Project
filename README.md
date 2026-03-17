@@ -8,15 +8,6 @@ This repository is designed around how real-world financial systems handle marke
 
 ## Overview
 
-The Fintech Project Stack emphasizes:
-
-- Market data ingestion and normalization
-- Time-series data processing
-- Explicit quantitative calculations
-- Clean, modular, and testable Python design
-
-The focus is on data correctness, structure, and financial intuition, rather than black-box models or abstracted libraries.
-
 **Key capabilities:**
 
 - Calculation of daily returns and log returns for equities
@@ -24,6 +15,7 @@ The focus is on data correctness, structure, and financial intuition, rather tha
 - Accurate maximum drawdown calculation with proper rolling-window alignment
 - Moving average signals for bullish, bearish, or neutral trends
 - Produces clean, analysis-ready risk metrics for use in quantitative research and trading strategy development
+- Applies this to a backtest over a 15 year period, including testing, validating and out-of-sample screen
 
 This module integrates seamlessly with the market data pipeline, ensuring all quantitative calculations are performed on **normalized, correctly indexed time-series data**.
 
@@ -58,5 +50,5 @@ This module integrates seamlessly with the market data pipeline, ensuring all qu
 
 ## Notes
 
-- Current implementation uses historical OHLC data for signal generation.  
-- Future extensions include live data feeds, automated paper trading, and full backtesting simulations.
+- Current implementation uses historical OHLC data for signal generation.
+- Future extensions include NLP/senntiment processing and AI learning for optimizing parameters
